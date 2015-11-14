@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fakebook", "Fakebook\Fakebook.csproj", "{9581D4DA-EF48-4A90-9C47-D01D16D83DD4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "PublishScripts", "PublishScripts", "{AA5B9E78-06C2-4B0B-BE8A-7E6BEE04B8EB}"
+	ProjectSection(SolutionItems) = preProject
+		PublishScripts\AzureVMPublishModule.psm1 = PublishScripts\AzureVMPublishModule.psm1
+		PublishScripts\Publish-WebApplicationVM.ps1 = PublishScripts\Publish-WebApplicationVM.ps1
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Configurations", "Configurations", "{4B2E3A39-94E7-4C57-B88D-854149A06AA4}"
+	ProjectSection(SolutionItems) = preProject
+		PublishScripts\Configurations\Fakebook-WAWS-dev.json = PublishScripts\Configurations\Fakebook-WAWS-dev.json
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9581D4DA-EF48-4A90-9C47-D01D16D83DD4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9581D4DA-EF48-4A90-9C47-D01D16D83DD4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9581D4DA-EF48-4A90-9C47-D01D16D83DD4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9581D4DA-EF48-4A90-9C47-D01D16D83DD4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{4B2E3A39-94E7-4C57-B88D-854149A06AA4} = {AA5B9E78-06C2-4B0B-BE8A-7E6BEE04B8EB}
+	EndGlobalSection
+EndGlobal
